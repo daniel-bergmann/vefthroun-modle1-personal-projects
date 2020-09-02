@@ -1,0 +1,152 @@
+/* main styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #333;
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  p, li {
+    font-size: 17px;
+  }
+
+  /* utilities */
+
+  .flex-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+/* logo */
+
+  .logo  {
+      padding-top: 20px;
+      font-size: 40px;
+      font-family: 'Cinzel', serif;
+  }
+
+  /* navbar */
+
+  nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  nav .nav-items {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+/* image */
+
+  .img-flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 2%;
+    margin-bottom: 20px;
+  }
+
+  img:hover {
+    width: 450px;
+    height: 350px;
+  }
+
+  /* card surrounding text */
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    max-width: 600px;
+    padding: 40px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+    border-radius: 2%;
+  }
+
+.heading {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+.card li {
+  padding-bottom: 3px;
+}
+
+.card .ingredients {
+  text-align: center;
+  list-style: none;
+}
+
+.card .ol-ingredients {
+  padding-bottom: 20px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  border-top: 1px: solid #333;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-radius: 2%;
+}
+
+footer .about {
+  justify-content: center;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.portfolio-link {
+  text-align: center;
+  opacity: 0.5;
+  padding-bottom: 10px;
+}
+
+.portfolio-link:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+  
+
+
