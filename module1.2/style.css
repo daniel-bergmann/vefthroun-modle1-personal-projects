@@ -1,0 +1,49 @@
+
+
+
+/* background image */
+
+.bg {
+  background: url(./img/bg-sand.png) no-repeat;
+  width: 1440px;
+  height: 1024px;
+}
+
+/* grid wrapper */
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(500px, auto);
+}
+
+/* flexbox container with headings */
+
+.flex-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 500px;
+}
+
+.flex-container1 .heading {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+/* flexbox container with paragraphs */
+
+.flex-container2 {
+  width: 4 00px;
+}
+
+.flex-container2 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
